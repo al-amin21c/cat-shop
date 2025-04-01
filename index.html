@@ -4,8 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--tailwind cdn-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--daisy ui cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!--font cdn-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <!--font awesome cdn-->
+    <script src="https://kit.fontawesome.com/87a3f7ed7c.js" crossorigin="anonymous"></script>
+    <!--style section-->
+    <style>
+        .primary-font {
+            font-family: "ADLaM Display", system-ui;
+            }
+        .common-font {
+            font-family: "Sora", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: <weight>;
+            font-style: normal;
+            }
+
+    </style>
 </head>
-<body>
+<body class="container m-auto">
+    <header class="py-7 md:px-15 lg:px-30 mb-12 lg:mb-24" >
+        <!--navbar section-->
+        <!--start of nav-->
+        <div class="hidden md:flex justify-between items-center  ">
+            <div class="flex items-center">
+                <img src="c1-assets/logo-header.png" alt="">
+                <h1 class="common-font font-normal text-2xl">Browse<span class="common-font font-normal text-2xl text-yellow-300">4</span>Pets</h1>
+            </div>
+            <!--center of nav-->
+            <div>
+                <ul class="flex space-x-3">
+                    <li><a href="">Find a pet</a></li>
+                    <li><a href="">Breeds</a></li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
+            </div>
+            <!--end of nav-->
+            <div class="flex items-center space-x-3">
+                <i class="fa-regular fa-bell"></i>
+                <i class="fa-regular fa-magnifying-glass"></i>
+                <button class="btn btn-outline btn-warning">Warning</button>
+                <button class="btn btn-active btn-warning">Register</button>
+            </div>
+        </div>
+        <div class="flex md:hidden justify-between items-center  ">
+            <img src="c1-assets/logo-header.png" alt="">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <!--banner section-->
+        <div>
+            <!--slogan section-->
+            <div>
+                
+            </div>
+        </div>
+
+    </header>
     
 </body>
 </html>
