@@ -17,10 +17,10 @@
     <script src="https://kit.fontawesome.com/87a3f7ed7c.js" crossorigin="anonymous"></script>
     <!--style section-->
     <style>
-        .primary-font {
+        .primary {
             font-family: "ADLaM Display", system-ui;
             }
-        .common-font {
+        .common {
             font-family: "Sora", sans-serif;
             font-optical-sizing: auto;
             font-weight: <weight>;
@@ -30,7 +30,7 @@
     </style>
 </head>
 <body class="container m-auto">
-    <header class="py-7 px-4 md:px-12 lg:px-24 mb-12 lg:mb-24" >
+    <header class="py-7 px-4 md:px-12 lg:px-24 md:mb-20 lg:mb-24" >
         <!--navbar section-->
         <!--start of nav-->
         <div class="hidden md:flex justify-between items-center  ">
@@ -63,17 +63,70 @@
             <div class="">
                 <!--slogan div-->
                 <div class="mb-4 space-y-4 absolute z-10">
-                    <h2 class="text-6xl">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h2>
-                    <p>Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
+                    <h2 class="text-6xl primary">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h2>
+                    <p class="common text-xl">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
                     <button class="bg-yellow-400 text-black px-3 py-1.5 rounded-md">Find a pet</button>
                 </div>
-                <div class="lg:top-20 md:top-30 sm:top-20 top-70 relative ">
+                <!--img div-->
+                <div class="top-72 lg:top-20 sm:top-64 md:top-44  relative ">
                     <img src="c1-assets/cat-big.png" alt="">
                 </div>
-
             </div>
         </div>
     </header>
-    
+    <main class="py-7 px-4 md:px-12 lg:px-12 mb-12 lg:mb-24 mx-auto mt-70 md:mt-32">
+        <!--category section-->
+            <h2 class="font-semibold text-3xl primary mb-8">Browse By Categories</h2>
+            <div class="grid 
+            grid-cols-2 grid-rows-3  
+            md:grid-cols-3 md:grid-rows-2  
+            lg:flex lg:justify-between  justify-items-center gap-y-3 gap-x-3 mx-auto">
+              <div class="h-52 lg:w-40 md:w-40 w-1/2 bg-[#F9DF8A] rounded-xl flex justify-center items-center flex-col gap-3">
+                <div class="bg-white rounded-full h-24 w-24 flex justify-center items-center">
+                  <img src="c1-assets/dog-cartoon.png" alt="">
+                </div>
+                <h4 class="primary text-xl">Dog</h4>
+                <p class="common text-base">3 Items</p>
+              </div>
+              <div class="h-52 lg:w-40 md:w-40 w-1/2 bg-[#F9DF8A] rounded-xl flex justify-center items-center flex-col gap-3">
+                <div class="bg-white rounded-full h-24 w-24 flex justify-center items-center">
+                  <img src="c1-assets/fish-cartoon.png" alt="">
+                </div>
+                <h4 class="primary text-xl">Fish</h4>
+                <p class="common text-base">3 Items</p>
+              </div>
+              <div class="h-52 lg:w-40 md:w-40 w-1/2 bg-[#F9DF8A] rounded-xl flex justify-center items-center flex-col gap-3">
+                <div class="bg-white rounded-full h-24 w-24 flex justify-center items-center">
+                  <img src="c1-assets/cat-cartoon.png" alt="">
+                </div>
+                <h4 class="primary text-xl">Cat</h4>
+                <p class="common text-base">3 Items</p>
+              </div>
+              <div class="h-52 lg:w-40 md:w-40 w-1/2 bg-[#F9DF8A] rounded-xl flex justify-center items-center flex-col gap-3">
+                <div class="bg-white rounded-full h-24 w-24 flex justify-center items-center">
+                  <img src="c1-assets/bird-cartoon.png" alt="">
+                </div>
+                <h4 class="primary text-xl">Bird</h4>
+                <p class="common text-base">3 Items</p>
+              </div>
+              <div class="h-52 lg:w-40 md:w-40 w-1/2 bg-[#F9DF8A] rounded-xl flex justify-center items-center flex-col gap-3">
+                <div class="bg-white rounded-full h-24 w-24 flex justify-center items-center">
+                  <img src="c1-assets/mouse-cartoon.png" alt="">
+                </div>
+                <h4 class="primary text-xl">Small Pets</h4>
+                <p class="common text-base">3 Items</p>
+              </div>
+              <div class="h-52 lg:w-40 md:w-40 w-1/2 bg-[#F9DF8A] rounded-xl flex justify-center items-center flex-col gap-3">
+                <div class="bg-white rounded-full h-24 w-24 flex justify-center items-center">
+                  <img src="c1-assets/rabbit-cartoon.png" alt="">
+                </div>
+                <h4 class="primary text-xl">Rabbit</h4>
+                <p class="common text-base">3 Items</p>
+              </div>
+            </div>
+          </div>
+          
+    </main>
+
 </body>
 </html>
